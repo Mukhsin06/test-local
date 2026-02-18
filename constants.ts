@@ -7,7 +7,9 @@ export const TOPICS: Topic[] = [
   { id: 3, title: "Yer aylanishi va Fuko", color: "emerald", gradient: "from-emerald-600 to-teal-500", accent: "text-emerald-400" },
   { id: 4, title: "Osmon koordinatalari", color: "amber", gradient: "from-amber-500 to-orange-600", accent: "text-amber-400" },
   { id: 5, title: "Ekliptika va Quyosh", color: "rose", gradient: "from-rose-600 to-pink-500", accent: "text-rose-400" },
-  { id: 6, title: "Ekvatorial koordinatalar", color: "fuchsia", gradient: "from-fuchsia-600 to-purple-500", accent: "text-fuchsia-400" }
+  { id: 6, title: "Ekvatorial koordinatalar", color: "fuchsia", gradient: "from-fuchsia-600 to-purple-500", accent: "text-fuchsia-400" },
+  { id: 7, title: "Yulduzlarning xaritalari", color: "cyan", gradient: "from-cyan-600 to-sky-500", accent: "text-cyan-400" },
+  { id: 8, title: "Yulduzlarning ko‘rinma kattaliklari", color: "lime", gradient: "from-lime-500 to-emerald-600", accent: "text-lime-400" }
 ];
 
 export const FLASHCARDS_DATA: FlashCard[] = [
@@ -46,5 +48,17 @@ export const FLASHCARDS_DATA: FlashCard[] = [
   { id: 27, topicId: 6, question: "To‘g‘ri chiqish (α) qanday aniqlanadi?", answer: "Bahorgi tengkunlik nuqtasidan yoritgichning og‘ish aylanasining osmon ekvatori bilan kesishgan nuqtasigacha bo‘lgan yoy bilan." },
   { id: 28, topicId: 6, question: "Og‘ish (δ) nima va u qanday o‘lchanadi?", answer: "Yoritgichning osmon ekvatoridan burchak masofasi bo‘lib, −90° dan +90° gacha o‘lchanadi." },
   { id: 29, topicId: 6, question: "Soat burchagi (t) nima?", answer: "Osmon meridianining janubiy qismidan yoritgichning og‘ish aylanasigacha bo‘lgan yoydir." },
-  { id: 30, topicId: 6, question: "Yoy o‘lchovi va vaqt o‘lchovi orasidagi bog‘lanish qanday?", answer: "360° = 24 soat, 15° = 1 soat, 1° = 4 minut." }
+  { id: 30, topicId: 6, question: "Yoy o‘lchovi va vaqt o‘lchovi orasidagi bog‘lanish qanday?", answer: "360° = 24 soat, 15° = 1 soat, 1° = 4 minut." },
+  // Topic 7
+  { id: 31, topicId: 7, question: "Yulduz xaritasi nima?", answer: "Osmondagi yulduzlar joyini ko‘rsatadigan chizma." },
+  { id: 32, topicId: 7, question: "Vertikal chiziqlar nimani bildiradi?", answer: "To‘g‘ri chiqish (α) ni bildiradi." },
+  { id: 33, topicId: 7, question: "Gorizontal chiziqlar nimani bildiradi?", answer: "Og‘ish (δ) ni bildiradi." },
+  { id: 34, topicId: 7, question: "α qanday o‘lchanadi?", answer: "Soat bilan (soat birligida)." },
+  { id: 35, topicId: 7, question: "δ qanday o‘lchanadi?", answer: "Daraja (°) bilan." },
+  // Topic 8
+  { id: 36, topicId: 8, question: "Yulduz kattaligi (m) nima?", answer: "Yulduzning qanchalik yorqin ko‘rinishini bildiradi." },
+  { id: 37, topicId: 8, question: "Qaysi yulduz yorqinroq: m=1 yoki m=5?", answer: "m=1 yorqinroq." },
+  { id: 38, topicId: 8, question: "5 kattalik farqi nimani bildiradi?", answer: "100 marta yorqinlik farqi." },
+  { id: 39, topicId: 8, question: "1 kattalik farqi nechaga teng?", answer: "2,5 marta." },
+  { id: 40, topicId: 8, question: "Pogson formulasi nima?", answer: "Yorqinlik bilan kattalik orasidagi bog‘lanish formulasi." }
 ];
