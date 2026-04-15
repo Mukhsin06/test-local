@@ -64,11 +64,11 @@ export const FLASHCARDS_DATA: FlashCard[] = [
   { id: 39, topicId: 8, question: "1 kattalik farqi nechaga teng?", answer: "2,5 marta." },
   { id: 40, topicId: 8, question: "Pogson formulasi nima?", answer: "Yorqinlik bilan kattalik orasidagi bog‘lanish formulasi." },
   // Topic 19
-  { id: 41, topicId: 19, question: "Quyosh Yerga nisbatan qanday katta?", answer: "Diametri 109 marta, massasi 330 000 marta katta." },
-  { id: 42, topicId: 19, question: "Planetalar tartibi qanday?", answer: "Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran, Neptun." },
-  { id: 43, topicId: 19, question: "Neptun Quyoshdan qancha uzoqda?", answer: "Taxminan 4554 mln km." },
-  { id: 44, topicId: 19, question: "Quyosh nuri Yerga va Neptunga qancha vaqtda yetadi?", answer: "Yerga ~8 minut, Neptunga ~4,5 soat." },
-  { id: 45, topicId: 19, question: "Quyosh sistemasida eng katta massa kimga tegishli?", answer: "Quyoshga (99,85%)." },
+  { id: 41, topicId: 19, question: "Quyosh sistemasi nima?", answer: "Quyosh sistemasi — Quyosh va uning atrofida aylanadigan barcha jismlar." },
+  { id: 42, topicId: 19, question: "Quyosh sistemasida nechta planeta bor?", answer: "8 ta planeta bor." },
+  { id: 43, topicId: 19, question: "Quyosh sistemasidagi planetalar tartibi qanday?", answer: "Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran, Neptun." },
+  { id: 44, topicId: 19, question: "Quyosh Yerdan qancha katta?", answer: "Quyosh Yerga qaraganda 109 marta katta." },
+  { id: 45, topicId: 19, question: "Quyosh nuri Yerga qancha vaqtda yetib keladi?", answer: "Taxminan 8 minutda yetib keladi." },
   // Topic 20
   { id: 46, topicId: 20, question: "Konfiguratsiya nima?", answer: "Planetaning Quyoshga nisbatan holati." },
   { id: 47, topicId: 20, question: "Ichki planeta qachon ko‘rinmaydi?", answer: "Quyosh bilan qo‘shilganda." },
