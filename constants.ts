@@ -9,7 +9,9 @@ export const TOPICS: Topic[] = [
   { id: 5, title: "Ekliptika va Quyosh", color: "rose", gradient: "from-rose-600 to-pink-500", accent: "text-rose-400" },
   { id: 6, title: "Ekvatorial koordinatalar", color: "fuchsia", gradient: "from-fuchsia-600 to-purple-500", accent: "text-fuchsia-400" },
   { id: 7, title: "Yulduzlarning xaritalari", color: "cyan", gradient: "from-cyan-600 to-sky-500", accent: "text-cyan-400" },
-  { id: 8, title: "Yulduzlarning ko‘rinma kattaliklari", color: "lime", gradient: "from-lime-500 to-emerald-600", accent: "text-lime-400" }
+  { id: 8, title: "Yulduzlarning ko‘rinma kattaliklari", color: "lime", gradient: "from-lime-500 to-emerald-600", accent: "text-lime-400" },
+  { id: 19, title: "Quyosh sistemasi", color: "orange", gradient: "from-orange-500 to-red-500", accent: "text-orange-400" },
+  { id: 20, title: "Planetalar konfiguratsiyasi", color: "sky", gradient: "from-sky-600 to-blue-500", accent: "text-sky-400" }
 ];
 
 export const FLASHCARDS_DATA: FlashCard[] = [
@@ -60,5 +62,17 @@ export const FLASHCARDS_DATA: FlashCard[] = [
   { id: 37, topicId: 8, question: "Qaysi yulduz yorqinroq: m=1 yoki m=5?", answer: "m=1 yorqinroq." },
   { id: 38, topicId: 8, question: "5 kattalik farqi nimani bildiradi?", answer: "100 marta yorqinlik farqi." },
   { id: 39, topicId: 8, question: "1 kattalik farqi nechaga teng?", answer: "2,5 marta." },
-  { id: 40, topicId: 8, question: "Pogson formulasi nima?", answer: "Yorqinlik bilan kattalik orasidagi bog‘lanish formulasi." }
+  { id: 40, topicId: 8, question: "Pogson formulasi nima?", answer: "Yorqinlik bilan kattalik orasidagi bog‘lanish formulasi." },
+  // Topic 19
+  { id: 41, topicId: 19, question: "Quyosh Yerga nisbatan qanday katta?", answer: "Diametri 109 marta, massasi 330 000 marta katta." },
+  { id: 42, topicId: 19, question: "Planetalar tartibi qanday?", answer: "Merkuriy, Venera, Yer, Mars, Yupiter, Saturn, Uran, Neptun." },
+  { id: 43, topicId: 19, question: "Neptun Quyoshdan qancha uzoqda?", answer: "Taxminan 4554 mln km." },
+  { id: 44, topicId: 19, question: "Quyosh nuri Yerga va Neptunga qancha vaqtda yetadi?", answer: "Yerga ~8 minut, Neptunga ~4,5 soat." },
+  { id: 45, topicId: 19, question: "Quyosh sistemasida eng katta massa kimga tegishli?", answer: "Quyoshga (99,85%)." },
+  // Topic 20
+  { id: 46, topicId: 20, question: "Konfiguratsiya nima?", answer: "Planetaning Quyoshga nisbatan holati." },
+  { id: 47, topicId: 20, question: "Ichki planeta qachon ko‘rinmaydi?", answer: "Quyosh bilan qo‘shilganda." },
+  { id: 48, topicId: 20, question: "Ichki planeta qachon kechqurun ko‘rinadi?", answer: "Sharqiy elongatsiyada." },
+  { id: 49, topicId: 20, question: "Qarama-qarshi turish nima?", answer: "Planeta Quyoshga 180° qarshi turadi." },
+  { id: 50, topicId: 20, question: "Kvadratura paytida qachon ko‘rinadi?", answer: "Kechqurun yoki tongda." }
 ];
