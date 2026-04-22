@@ -11,7 +11,8 @@ export const TOPICS: Topic[] = [
   { id: 7, title: "Yulduzlarning xaritalari", color: "cyan", gradient: "from-cyan-600 to-sky-500", accent: "text-cyan-400" },
   { id: 8, title: "Yulduzlarning ko‘rinma kattaliklari", color: "lime", gradient: "from-lime-500 to-emerald-600", accent: "text-lime-400" },
   { id: 19, title: "Quyosh sistemasi", color: "orange", gradient: "from-orange-500 to-red-500", accent: "text-orange-400" },
-  { id: 20, title: "Planetalar konfiguratsiyasi", color: "sky", gradient: "from-sky-600 to-blue-500", accent: "text-sky-400" }
+  { id: 20, title: "Planetalar konfiguratsiyasi", color: "sky", gradient: "from-sky-600 to-blue-500", accent: "text-sky-400" },
+  { id: 23, title: "Qo‘shaloq yulduzlar", color: "violet", gradient: "from-violet-600 to-indigo-500", accent: "text-violet-400" }
 ];
 
 export const FLASHCARDS_DATA: FlashCard[] = [
@@ -74,5 +75,12 @@ export const FLASHCARDS_DATA: FlashCard[] = [
   { id: 47, topicId: 20, question: "Ichki planeta qachon ko‘rinmaydi?", answer: "Quyosh bilan qo‘shilganda." },
   { id: 48, topicId: 20, question: "Ichki planeta qachon kechqurun ko‘rinadi?", answer: "Sharqiy elongatsiyada." },
   { id: 49, topicId: 20, question: "Qarama-qarshi turish nima?", answer: "Planeta Quyoshga 180° qarshi turadi." },
-  { id: 50, topicId: 20, question: "Kvadratura paytida qachon ko‘rinadi?", answer: "Kechqurun yoki tongda." }
+  { id: 50, topicId: 20, question: "Kvadratura paytida qachon ko‘rinadi?", answer: "Kechqurun yoki tongda." },
+  // Topic 23
+  { id: 51, topicId: 23, question: "Qo‘shaloq yulduzlar nima?", answer: "Qo‘shaloq yulduzlar — bir-biri bilan gravitatsion bog‘langan va umumiy massa markazi atrofida aylanadigan ikki yulduz tizimidir." },
+  { id: 52, topicId: 23, question: "Fizik qo‘shaloq yulduzlar qanday hosil bo‘ladi?", answer: "Ular bir gaz bulutidan birga paydo bo‘lib, o‘zaro tortishish kuchi orqali bog‘lanib qoladi." },
+  { id: 53, topicId: 23, question: "Optik qo‘shaloq yulduz nima?", answer: "Optik qo‘shaloq yulduzlar — aslida bir-biriga bog‘lanmagan, faqat osmonda yonma-yon ko‘rinadigan yulduzlardir." },
+  { id: 54, topicId: 23, question: "Vizual qo‘shaloq yulduzlar qanday aniqlanadi?", answer: "Ular teleskop orqali alohida-alohida ko‘rinadigan va orasida masofa bo‘lgan qo‘shaloq yulduzlardir." },
+  { id: 55, topicId: 23, question: "Tutiluvchi qo‘shaloq yulduzlar qanday xususiyatga ega?", answer: "Ular bir-birini to‘sib o‘tadi va natijada yorqinligi davriy ravishda o‘zgaradi." },
+  { id: 56, topicId: 23, question: "Spektral qo‘shaloq yulduzlar qanday aniqlanadi?", answer: "Ular ko‘z bilan ajralmaydi, faqat yorug‘lik spektrini tahlil qilish orqali aniqlanadi." }
 ];
